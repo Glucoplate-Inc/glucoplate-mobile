@@ -74,8 +74,15 @@ yarn-error.log
 !.yarn/sdks
 !.yarn/versions
 
-# Firebase config files (keep these secure)
+# Firebase config files (keep these secure - NEVER COMMIT!)
+google-services.json
+GoogleService-Info.plist
+GoogleService-Info-*.plist
+firebase-admin.json
 src/config/firebase-admin.json
+*.p8
+*.p12
+*.mobileprovision
 
 # Environment
 .env
