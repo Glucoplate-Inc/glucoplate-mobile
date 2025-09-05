@@ -84,6 +84,10 @@ src/config/firebase-admin.json
 *.p12
 *.mobileprovision
 
+# Android signing credentials (NEVER COMMIT!)
+android/gradle.properties.local
+android/app/glucoplate-release.keystore
+
 # Environment
 .env
 .env.local
